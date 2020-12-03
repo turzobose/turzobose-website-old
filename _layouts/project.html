@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+<!--
 {% for post in site.posts %}
 {% if post.category == page.category %}
 <div class="post-preview">
@@ -20,4 +21,36 @@ layout: page
 </div>
 <hr>
 {% endif %}
+{% endfor %}
+-->
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
+
+{% for post in site.categories[page.category] %}
+<article class="post">
+  <a href="{{ post.url | absolute_url }}">
+    <img src="{{ site.baseurl }}/img/{{ post.image }}"
+         class="img_research" align="left"/>
+  </a>
+  <h3>
+    <a href="{{ post.url | absolute_url }}">
+      {{ post.title }}
+    </a>
+  </h3>
+  {{ post.excerpt }}
+</article>
 {% endfor %}

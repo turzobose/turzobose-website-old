@@ -29,7 +29,10 @@ and clicking on the files, then clicking on the "trash can / delete this file" i
 
 ## Things to do:
 
-- [] Change landing page bg picture, icon and details
+- [X] Change landing page bg picture, logo and details
+    - [] Increase size of logo and choose a milder bg picture
+- [] Change the about page details, add picture
+    - [] the picture isnt showing up
 - [] Add world visit view to footer, change and link social icons
 - [] Change css stlying: Fonts
 - [] Add CV page: Create like basically basic

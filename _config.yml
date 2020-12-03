@@ -1,6 +1,6 @@
 # Site settings
 title: Turzo Bose
-description: "Deep Learning Practioner, Chemical Engineer and Avid Learner"
+description: "Deep Learning Practitioner, Chemical Engineer and Avid Learner"
 url: "https://projectpages.github.io"   #Change this later
 
 
@@ -14,7 +14,7 @@ logo: /project-pages/img/turzo_boat_circle.png
 
 # Tertiary Parameters
 github_username:  turzobose
-project_repository: turzobose.github.io
+project_repository:
 disqus_shortname: project-pages
 twitter_username: TurzoBose
 linkedin_username: turzobose
