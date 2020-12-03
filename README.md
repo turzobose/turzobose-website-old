@@ -38,4 +38,4 @@ and clicking on the files, then clicking on the "trash can / delete this file" i
 - [] Add CV page: Create like basically basic
 - [] Add Contact form
 - [] Add side toggler like Minimal Mistakes
-- []
+- [] Change the Projects page to include all available projects

@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<!--
+
 {% for post in site.posts %}
 {% if post.category == page.category %}
 <div class="post-preview">
@@ -22,7 +22,6 @@ layout: page
 <hr>
 {% endif %}
 {% endfor %}
--->
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
@@ -40,6 +39,7 @@ layout: page
 </ul>
 {% endif %}
 
+<!--
 {% for post in site.categories[page.category] %}
 <article class="post">
   <a href="{{ post.url | absolute_url }}">
@@ -54,3 +54,4 @@ layout: page
   {{ post.excerpt }}
 </article>
 {% endfor %}
+-->
