@@ -1,13 +1,13 @@
 # Site settings
 title: Turzo Bose
 description: "Deep Learning Practitioner, Chemical Engineer and Avid Learner"
-url: "https://projectpages.github.io"   #Change this later
+url: "https://turzobose.github.io"   #Change this later
 
 
 
 
 # Secondary Parameters
-baseurl: ""   #Change this later
+baseurl: "/"   #Change this later
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: img/turzo_boat_circle.png
