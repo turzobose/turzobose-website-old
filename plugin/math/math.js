@@ -14,7 +14,7 @@ var RevealMath = window.RevealMath || (function(){
 
 		MathJax.Hub.Config({
 			messageStyle: 'none',
-			tex2jax: { inlineMath: [['$','$'],['\\(','\\)']] },
+			tex2jax: { inlineMath: [['$','$'],['\\(','\\)']],['$$','$$'] },
 			skipStartupTypeset: true
 		});
 

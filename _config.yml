@@ -7,15 +7,15 @@ url: "https://projectpages.github.io"   #Change this later
 
 
 # Secondary Parameters
-baseurl: "/project-pages"   #Change this later
+baseurl: ""   #Change this later
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /project-pages/img/turzo_boat_circle.png
+logo: img/turzo_boat_circle.png
 
 # Tertiary Parameters
 github_username:  turzobose
 project_repository:
-disqus_shortname: project-pages
+disqus_shortname: #project-pages
 twitter_username: TurzoBose
 linkedin_username: turzobose
 g-analytics:
@@ -27,7 +27,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md",'members.html','mentions.html', "CV.md"]
 
 # Jekyll Settings
 

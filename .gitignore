@@ -1,3 +1,6 @@
 _site
 node_modules
 Gemfile*
+.jekyll-cache
+_drafts
+CV.md
