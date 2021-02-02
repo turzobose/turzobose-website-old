@@ -2,8 +2,8 @@
 layout: post
 title: Dimension tracking for Conv2D layer
 author: Turzo Bose
-tags: 		  DeepLearning Convolutions
-subtitle:   PyTorch and Tensorflow
+tags: DeepLearning Convolutions
+subtitle: PyTorch and Tensorflow
 category: research
 toc: true
 toc_sticky: true
