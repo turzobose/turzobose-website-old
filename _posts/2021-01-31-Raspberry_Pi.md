@@ -4,7 +4,7 @@ title: Share WiFi through Ethernet Port with Raspberry Pi
 author: Turzo Bose
 tags: RaspberryPi DNS_Server
 subtitle: DNS Server on Raspberry Pi
-category: research
+category: blogpost
 toc: true
 toc_sticky: true
 #icon: fa-connectdevelop
